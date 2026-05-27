@@ -1,0 +1,171 @@
+.back-link {
+    padding: 1rem 5%;
+    background-color: #f8f9fa;
+}
+
+.back-link a {
+    color: #e94560;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.back-link a:hover {
+    text-decoration: underline;
+}
+
+.lawyer-profile {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 5%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+}
+
+.profile-main {
+    background: white;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.profile-header {
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #f0f0f0;
+}
+
+.profile-header h1 {
+    font-size: 2rem;
+    color: #1a1a2e;
+    margin-bottom: 0.5rem;
+}
+
+.specialization-badge {
+    display: inline-block;
+    background-color: #e94560;
+    color: white;
+    padding: 0.25rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+}
+
+.profile-stats {
+    display: flex;
+    gap: 2rem;
+    margin: 1.5rem 0;
+    flex-wrap: wrap;
+}
+
+.stat-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1rem;
+    color: #555;
+}
+
+.stat-value {
+    font-weight: bold;
+    color: #e94560;
+}
+
+.profile-section {
+    margin-top: 2rem;
+}
+
+.profile-section h3 {
+    margin-bottom: 1rem;
+    color: #1a1a2e;
+}
+
+.profile-section p {
+    color: #666;
+    line-height: 1.6;
+}
+
+.contact-info {
+    margin-top: 1rem;
+}
+
+.contact-info p {
+    margin-bottom: 0.5rem;
+}
+
+.contact-info a {
+    color: #e94560;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.profile-sidebar {
+    background: white;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    height: fit-content;
+    position: sticky;
+    top: 1rem;
+}
+
+.price {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.price .amount {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #e94560;
+}
+
+.price .period {
+    color: #666;
+}
+
+.booking-form-sidebar {
+    margin-top: 1rem;
+}
+
+.booking-form-sidebar .form-group {
+    margin-bottom: 1rem;
+}
+
+.booking-form-sidebar input,
+.booking-form-sidebar textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.booking-form-sidebar textarea {
+    resize: vertical;
+}
+
+.signin-notice {
+    text-align: center;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid #eee;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.signin-notice a {
+    color: #e94560;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .lawyer-profile {
+        grid-template-columns: 1fr;
+    }
+    
+    .profile-sidebar {
+        position: static;
+    }
+}

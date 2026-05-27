@@ -1,0 +1,9 @@
+{
+  "name": "advocouncil-frontend",
+  "version": "1.0.0",
+  "description": "AdvoCouncil Legal Platform Frontend",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx serve ."
+  }
+}
